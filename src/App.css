@@ -9,6 +9,7 @@
   max-width: 70rem;
   margin: 0 auto;
   padding: 5rem 0;
+  background-color: #4684b9;
 }
 
 .container {
@@ -23,6 +24,10 @@
 .reservation-header {
   font-size: 1.5rem;
   color: rgb(36, 36, 36);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .reservation-cards-container {
@@ -35,11 +40,12 @@
   border-radius: 0.4rem;
   box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.171);
   width: 80%;
-  margin: 1rem 0;
+  margin: auto;
 }
 .reservation-input-container {
   width: 80%;
   padding: 0.5rem 1rem;
+  margin: auto;
 }
 
 .reservation-input-container input {
@@ -81,9 +87,15 @@
 
 .customer-food-input-container input {
   width: 5rem;
+  margin-right: 1rem;
 }
 
-.customer-foods-container {
+.customer-food-input-container button:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.customer-food-container .customer-foods-container {
   display: flex;
   width: 100%;
   margin-top: 1rem;
